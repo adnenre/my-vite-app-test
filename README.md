@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# react-novice-button
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> react button using styled-component [repo demo](https://github.com/adnenre/my-vite-app-test)
 
-Currently, two official plugins are available:
+[Home page](https://adnenre.github.io/my-vite-app-test/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Codesandbox](https://codesandbox.io/p/sandbox/sleepy-tess-42hngn)
 
-## Expanding the ESLint configuration
+[![NPM](https://img.shields.io/npm/v/react-novice-button.svg)](https://www.npmjs.com/package/react-novice-button)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Clone this repo and check how the code works in codesandbox or homepage link above
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+gh repo clone adnenre/my-vite-app-test`
+
+or
+
+git clone https://github.com/adnenre/my-vite-app-test.git
+
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
