@@ -13,8 +13,8 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, content }) => {
   return (
-    <>
-      <div className="card">
+    <div className="card-container">
+      <div className="card ">
         <h3> {title}</h3>
         {content.map((item) => (
           <item.component key={item.key} style={item.style} {...item.props}>
@@ -58,7 +58,7 @@ const Card: React.FC<CardProps> = ({ title, content }) => {
           </item.component>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
