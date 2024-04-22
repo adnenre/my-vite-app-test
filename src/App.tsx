@@ -14,7 +14,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <ButtonCard title="Button Shape" contentItem={data.shape} />
+      <ButtonCard title="Button Shape" contentItem={data.shape.flat} />
       <ButtonCard title="Button Variant" contentItem={data.variant} />
       <ButtonCard title="Button Size xs" contentItem={data.sizeXS} />
       <ButtonCard title="Button size sm" contentItem={data.sizeSM} />

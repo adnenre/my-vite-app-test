@@ -1,17 +1,20 @@
 import { ContentItem } from "../category/Card";
 import { Button } from "react-novice-button";
 import { uniqueId } from "../utils";
-const shape: ContentItem[] = [
+const flat: ContentItem[] = [
   {
     component: Button,
     props: {
       $variant: "primary",
       $shape: "flat",
     },
-    label: "pill",
+    label: "Button",
     type: "",
     key: uniqueId(),
   },
+];
+
+const roundSM: ContentItem[] = [
   {
     component: Button,
     props: { $variant: "primary", $shape: "round-sm" },
@@ -19,6 +22,8 @@ const shape: ContentItem[] = [
     type: "",
     key: uniqueId(),
   },
+];
+const round: ContentItem[] = [
   {
     component: Button,
     props: { $variant: "primary", $shape: "round" },
@@ -26,6 +31,8 @@ const shape: ContentItem[] = [
     type: "",
     key: uniqueId(), // Unique identifier for this item
   },
+];
+const pill: ContentItem[] = [
   {
     component: Button,
     props: { $variant: "primary", $shape: "pill" },
@@ -34,7 +41,6 @@ const shape: ContentItem[] = [
     key: uniqueId(),
   },
 ];
-
 const variant: ContentItem[] = [
   {
     component: Button,
@@ -1129,7 +1135,12 @@ const variantDanger = [
 ];
 
 export const data = {
-  shape,
+  shape: {
+    flat,
+    roundSM,
+    round,
+    pill,
+  },
   variant,
   sizeXS,
   sizeSM,

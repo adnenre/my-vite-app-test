@@ -13,14 +13,52 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, content }) => {
   return (
-    <div className="card">
-      <h3> {title}</h3>
-      {content.map((item) => (
-        <item.component key={item.key} style={item.style} {...item.props}>
-          {item.label}
-        </item.component>
-      ))}
-    </div>
+    <>
+      <div className="card">
+        <h3> {title}</h3>
+        {content.map((item) => (
+          <item.component key={item.key} style={item.style} {...item.props}>
+            {item.label}
+          </item.component>
+        ))}
+      </div>
+      <div className="card">
+        {content.map((item) => (
+          <item.component
+            key={item.key}
+            style={item.style}
+            {...item.props}
+            $shape="round-sm"
+          >
+            {item.label}
+          </item.component>
+        ))}
+      </div>
+      <div className="card">
+        {content.map((item) => (
+          <item.component
+            key={item.key}
+            style={item.style}
+            {...item.props}
+            $shape="round"
+          >
+            {item.label}
+          </item.component>
+        ))}
+      </div>
+      <div className="card">
+        {content.map((item) => (
+          <item.component
+            key={item.key}
+            style={item.style}
+            {...item.props}
+            $shape="pill"
+          >
+            {item.label}
+          </item.component>
+        ))}
+      </div>
+    </>
   );
 };
 
