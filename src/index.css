@@ -47,3 +47,24 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+.ten-item-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 5 columns */
+
+  gap: 1px; /* Adjust the gap between items */
+}
+
+/* Optional: Style for each item */
+.grid-item {
+  width: 10px;
+  height: 10px;
+}
+.button-shape-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button-shape-container > .card-container:first-child {
+  flex: 1;
+}
