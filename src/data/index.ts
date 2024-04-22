@@ -356,7 +356,7 @@ const sizeLG: ContentItem[] = [
 const variantPrimary: ContentItem[] = [
   {
     component: Button,
-    style: { color: "#000" },
+
     props: { $variant: "primary1", title: '$variant="primary1' },
     label: "p1",
     type: "",
@@ -364,7 +364,7 @@ const variantPrimary: ContentItem[] = [
   },
   {
     component: Button,
-    style: { color: "#000" },
+
     props: { $variant: "primary2", title: '$variant="primary2' },
     label: "p2",
     type: "",
@@ -372,7 +372,7 @@ const variantPrimary: ContentItem[] = [
   },
   {
     component: Button,
-    style: { color: "#000" },
+
     props: { $variant: "primary3", title: '$variant="primary3' },
     label: "p3",
     type: "",
@@ -432,7 +432,6 @@ const variantPrimary: ContentItem[] = [
 const variantSuccess: ContentItem[] = [
   {
     component: Button,
-    style: { color: "#000" },
 
     props: { $variant: "success1", title: '$variant="success1' },
 
@@ -445,7 +444,6 @@ const variantSuccess: ContentItem[] = [
 
   {
     component: Button,
-    style: { color: "#000" },
 
     props: { $variant: "success2", title: '$variant="success2' },
 
@@ -458,7 +456,6 @@ const variantSuccess: ContentItem[] = [
 
   {
     component: Button,
-    style: { color: "#000" },
 
     props: { $variant: "success3", title: '$variant="success3' },
 
@@ -548,7 +545,6 @@ const variantSuccess: ContentItem[] = [
 ];
 const variantLime: ContentItem[] = [
   {
-    style: { color: "#000" },
     component: Button,
 
     props: { $variant: "lime1", title: '$variant="lime1' },
@@ -561,7 +557,6 @@ const variantLime: ContentItem[] = [
   },
 
   {
-    style: { color: "#000" },
     component: Button,
 
     props: { $variant: "lime2", title: '$variant="lime2' },
@@ -574,7 +569,6 @@ const variantLime: ContentItem[] = [
   },
 
   {
-    style: { color: "#000" },
     component: Button,
 
     props: { $variant: "lime3", title: '$variant="lime3' },
@@ -673,7 +667,6 @@ const variantLime: ContentItem[] = [
 
 const variantInfo: ContentItem[] = [
   {
-    style: { color: "#000" },
     component: Button,
 
     props: { $variant: "info1", title: '$variant="info1' },
@@ -686,7 +679,6 @@ const variantInfo: ContentItem[] = [
   },
 
   {
-    style: { color: "#000" },
     component: Button,
 
     props: { $variant: "info2", title: '$variant="info2' },
@@ -699,7 +691,6 @@ const variantInfo: ContentItem[] = [
   },
 
   {
-    style: { color: "#000" },
     component: Button,
 
     props: { $variant: "info3", title: '$variant="info3' },
@@ -798,7 +789,6 @@ const variantInfo: ContentItem[] = [
 const variantWarning: ContentItem[] = [
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "warning1",
@@ -815,7 +805,6 @@ const variantWarning: ContentItem[] = [
 
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "warning2",
@@ -832,7 +821,6 @@ const variantWarning: ContentItem[] = [
 
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "warning3",
@@ -927,7 +915,6 @@ const variantWarning: ContentItem[] = [
 const variantDark: ContentItem[] = [
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "dark1",
@@ -944,7 +931,6 @@ const variantDark: ContentItem[] = [
 
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "dark2",
@@ -1063,7 +1049,6 @@ const variantDark: ContentItem[] = [
 const variantDanger = [
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "danger1",
@@ -1080,7 +1065,6 @@ const variantDanger = [
 
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "danger2",
@@ -1097,7 +1081,6 @@ const variantDanger = [
 
   {
     component: Button,
-    style: { color: "#000" },
 
     props: {
       $variant: "danger3",

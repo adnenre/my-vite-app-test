@@ -1,6 +1,7 @@
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import ButtonCard, { ButtonShape } from "./category/ButtonCard";
+
 import { data } from "./data";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+
       <ButtonShape title="Button Shape" contentItem={data.shape.flat} />
       <ButtonCard title="Button Variant" contentItem={data.variant} />
       <ButtonCard title="Button Size xs" contentItem={data.sizeXS} />
