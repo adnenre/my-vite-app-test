@@ -1,6 +1,7 @@
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { Button } from "react-novice-button";
+import ButtonCard from "./category/ButtonCard";
+import { data } from "./data";
 
 function App() {
   return (
@@ -13,33 +14,42 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <ButtonCard title="Button Shape" contentItem={data.shape} />
+      <ButtonCard title="Button Variant" contentItem={data.variant} />
+      <ButtonCard title="Button Size xs" contentItem={data.sizeXS} />
+      <ButtonCard title="Button size sm" contentItem={data.sizeSM} />
+      <ButtonCard title="Button size md" contentItem={data.sizeMD} />
+      <ButtonCard title="Button Size lg" contentItem={data.sizeLG} />
+      <ButtonCard
+        title="variant primary1 => primary10"
+        contentItem={data.variantPrimary}
+      />
+      <ButtonCard
+        title="variant success1 => success10"
+        contentItem={data.variantSuccess}
+      />
+      <ButtonCard
+        title="variant lime1 => lime10"
+        contentItem={data.variantLime}
+      />
+      <ButtonCard
+        title="variant info1 => info10"
+        contentItem={data.variantInfo}
+      />
+      <ButtonCard
+        title="variant warning1 => warning10"
+        contentItem={data.variantWarning}
+      />
+      <ButtonCard
+        title="variant danger1 => danger10"
+        contentItem={data.variantDanger}
+      />
+      <ButtonCard
+        title="variant dark1 => dark10"
+        contentItem={data.variantDark}
+      />
 
-      <div className="card">
-        <h3> Button shape</h3>
-        <Button $variant="primary" $shape="flat">
-          pill
-        </Button>
-        <Button $variant="primary" $shape="round-sm">
-          round-sm
-        </Button>
-        <Button $variant="primary" $shape="round">
-          round
-        </Button>
-        <Button $variant="primary" $shape="pill">
-          pill
-        </Button>
-      </div>
-
-      <div className="card">
-        <h3> Button variant</h3>
-        <Button $variant="primary">primary</Button>
-        <Button $variant="secondary">secondary</Button>
-        <Button $variant="success">success</Button>
-        <Button $variant="warning">warning</Button>
-        <Button $variant="danger">danger</Button>
-        <Button $variant="black">black</Button>
-        <Button $variant="info">info</Button>
-      </div>
+      {/*
 
       <div className="card">
         <h3>Button size</h3>
@@ -148,8 +158,8 @@ function App() {
         </Button>
         <Button $variant="success10" $size="md">
           s5
-        </Button>
-      </div>
+        </Button> 
+      </div>*/}
       <p className="read-the-docs">
         Click on the React logos to find the package on npmjs and learn more
       </p>
