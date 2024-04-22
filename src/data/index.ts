@@ -7,6 +7,62 @@ const flat: ContentItem[] = [
     props: {
       $variant: "primary",
       $shape: "flat",
+      $size: "xs",
+    },
+    label: "Button",
+    type: "",
+    key: uniqueId(),
+  },
+  {
+    component: Button,
+    props: {
+      $variant: "primary",
+      $shape: "flat",
+      $size: "sm",
+    },
+    label: "Button",
+    type: "",
+    key: uniqueId(),
+  },
+  {
+    component: Button,
+    props: {
+      $variant: "primary",
+      $shape: "flat",
+      $size: "md",
+    },
+    label: "Button",
+    type: "",
+    key: uniqueId(),
+  },
+  {
+    component: Button,
+    props: {
+      $variant: "primary",
+      $shape: "flat",
+      $size: "lg",
+    },
+    label: "Button",
+    type: "",
+    key: uniqueId(),
+  },
+  {
+    component: Button,
+    props: {
+      $variant: "primary",
+      $shape: "flat",
+      $size: "xl",
+    },
+    label: "Button",
+    type: "",
+    key: uniqueId(),
+  },
+  {
+    component: Button,
+    props: {
+      $variant: "primary",
+      $shape: "flat",
+      $size: "xxl",
     },
     label: "Button",
     type: "",

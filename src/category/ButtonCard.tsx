@@ -23,12 +23,11 @@ export const ButtonShape: React.FC<ButtonCardProps> = ({
     (variant: string) => (e: React.MouseEvent<HTMLElement>) => {
       e.preventDefault();
       let newState = [...contentItem];
-      newState[0].props.$variant = variant;
+      newState.map((item) => (item.props.$variant = variant));
       setContent(newState);
-      console.log(contentItem);
     };
 
-  useEffect(() => {}, [contentItem[0].props.$variant]);
+  useEffect(() => {}, [contentItem]);
 
   return (
     <div className="button-shape-container">
