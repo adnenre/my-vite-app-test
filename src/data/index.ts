@@ -226,7 +226,7 @@ const sizeMD: ContentItem[] = [
   },
   {
     component: Button,
-    props: { $size: "sm", $variant: "danger" },
+    props: { $size: "md", $variant: "danger" },
     label: "danger",
     type: "",
     key: uniqueId(),
