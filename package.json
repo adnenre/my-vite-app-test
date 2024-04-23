@@ -14,7 +14,7 @@
     "@tabler/icons-react": "^3.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-novice-button": "^0.1.8",
+    "react-novice-button": "^0.1.9",
     "react-vite-library": "^0.0.3"
   },
   "devDependencies": {
