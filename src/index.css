@@ -56,16 +56,22 @@ h1 {
 
 /* Optional: Style for each item */
 .grid-item {
-  width: 10px;
+  width: 24px;
   height: 24px;
   margin-left: 0;
   border-radius: 5px !important;
-}
-.grid-item-selected > svg {
-  width: 10px;
-  height: 10px;
+  padding: 0;
+  display: block !important;
   position: relative;
+}
+
+.grid-item > svg {
+  position: absolute;
+  display: block;
   right: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .button-shape-container {
   display: flex;
